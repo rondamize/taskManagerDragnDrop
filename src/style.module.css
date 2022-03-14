@@ -6,6 +6,14 @@
     background-color: white;
 }
 
+.taskItemIsDragging {
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: palegreen;
+}
+
 .container {
     margin: 8px;
     border: 1px solid lightblue;
@@ -18,4 +26,10 @@
 
 .taskList {
     padding: 8px;
+    background-color: white;
+}
+
+.taskListDraggingOver {
+    padding: 8px;
+    background-color: skyblue;
 }
