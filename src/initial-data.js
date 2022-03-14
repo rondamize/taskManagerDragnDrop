@@ -1,9 +1,9 @@
 let initialData = {
   tasks: {
       'task-1': {id: 'task-1', content: 'Learn React'},
-      'task-2': {id: 'task-2', content: 'Learn React 2'},
-      'task-3': {id: 'task-3', content: 'Learn React 3'},
-      'task-4': {id: 'task-4', content: 'Learn React 4'},
+      'task-2': {id: 'task-2', content: 'Find a job'},
+      'task-3': {id: 'task-3', content: 'Escape from Russia'},
+      'task-4': {id: 'task-4', content: 'Become happy'},
   },
   columns: {
       'column-1': {

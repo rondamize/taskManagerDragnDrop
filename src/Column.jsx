@@ -10,7 +10,7 @@ const Column = (props) => {
             <Droppable droppableId={props.column.id}>
                 {(provided, snapshot) => (
                     <div className={snapshot.isDraggingOver ? classes.taskListDraggingOver: classes.taskList} ref={provided.innerRef}
-                         isDraggingOver={snapshot.isDraggingOver}{...provided.droppableProps}>
+                         {...provided.droppableProps}>
                         {taskItems}
                         {provided.placeholder}
                     </div>

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.globalContainer {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
 .taskItem {
     border: 1px solid lightblue;
     border-radius: 2px;
@@ -18,18 +25,29 @@
     margin: 8px;
     border: 1px solid lightblue;
     border-radius: 2px;
+    width: 220px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     padding: 8px;
+    height: fit-content;
+    margin: 0;
 }
 
 .taskList {
     padding: 8px;
     background-color: white;
+    transition: background-color 0.2s ease;
+    min-height: 100px;
 }
 
 .taskListDraggingOver {
     padding: 8px;
     background-color: skyblue;
+    transition: background-color 0.2s ease;
+    flex-grow: 1;
+    min-height: 100px;
 }
